@@ -77,6 +77,5 @@ module.exports = function textReporter(validationData, options) {
     ])
         .flatten()
         .filter(function (item) { return item !== null; })
-        .run()
         .join('\n');
 };
